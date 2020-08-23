@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="#85C7DE"
+    tools:context="com.example.vinee.measurable.HomeActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/largee"
+        android:id="@+id/logo" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logo"
+        style="@style/views"
+        android:text="No Saved Measurements!"
+        android:id="@+id/placeholder"/>
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="right|bottom"
+        android:layout_margin="16dp"
+        android:src="@drawable/ic_add_white_24dp" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logo"
+        android:divider="@null"
+        android:layout_above="@id/menu"
+        android:id="@+id/listView"></ListView>
+    <RelativeLayout
+        android:id="@+id/menu2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#C6DBF0"
+        android:visibility="gone">
+
+        <EditText
+            android:id="@+id/height"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="#C6DBF0"
+            android:gravity="center"
+            android:hint="@string/name"
+            android:textColor="#ffffff"
+            android:inputType="numberDecimal" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Start"
+            android:layout_below="@id/height"
+            android:textSize="20sp"
+            android:id="@+id/start"
+            android:background="#C6DBF0"
+            android:layout_margin="16dp"
+            android:layout_centerHorizontal="true"
+            android:textStyle="italic"
+            android:textColor="#ffffff"/>
+    </RelativeLayout>
+<!--
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logo"
+        android:id="@+id/frame">
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="400dp">
+
+        </ListView>
+        -->
+        <!--
+    </FrameLayout>
+    -->
+
+
+
+
+</RelativeLayout>

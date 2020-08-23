@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Measurable</string>
+    <string name="name">Enter your height in inches</string>
+    <string name="instructionsDistance">Hold your phone in front of your eyes, and tilt the phone until
+        the cross is aligned with the base of the object. Then tap the shutter button.\n\nTap to continue.</string>
+    <string name="instructionsHeight">Hold your phone in front of your eyes, and tilt the phone until the cross is aligned with
+        the base of the object. Tap the shutter button. Then tilt the phone upward so the cross is aligned with the
+        top of the object. Tap the shutter button again.\n\nTap to continue.</string>
+    <string name="disclaimer">Keep in mind that this app is only an approximation, and is based on the
+    quality of your phone\'s sensors.</string>
+    <string name="saveQuestion">What did you measure?</string>
+    <string name="mock">3\'5\"</string>
+    <string name="tip1">Keep your phone close to your eyes, and only tilt it up and down for accurate measurements.\n\nTap to continue.</string>
+    <string name="tip2">Try to keep your phone in the same position relative to your face when you\'re tilting it.</string>
+    <string name="tip3">The item you\'re measuring, has to be on the same ground level as you, or else the app will not work.</string>
+</resources>

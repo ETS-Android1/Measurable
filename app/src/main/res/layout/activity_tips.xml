@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.vinee.measurable.TipsActivity"
+    android:id="@+id/container"
+    android:background="#C6DBF0">
+    <TextView
+        style="@style/views"
+        android:text="@string/tip1"
+        android:visibility="invisible"
+        android:id="@+id/tip1"/>
+    <TextView
+        style="@style/views"
+        android:text="@string/tip2"
+        android:visibility="invisible"
+        android:id="@+id/tip2"/>
+    <TextView
+        style="@style/views"
+        android:text="@string/tip3"
+        android:visibility="invisible"
+        android:id="@+id/tip3"/>
+
+
+
+</RelativeLayout>

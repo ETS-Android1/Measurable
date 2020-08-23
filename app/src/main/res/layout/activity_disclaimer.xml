@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.vinee.measurable.Disclaimer"
+    android:background="#C6DBF0"
+    android:id="@+id/layout">
+    <TextView
+        style="@style/views"
+        android:text="@string/disclaimer"
+        android:id="@+id/text"
+        android:background="?android:attr/selectableItemBackground"         />
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imgClose"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="32dp"
+        android:background="@android:drawable/ic_menu_close_clear_cancel"
+        android:padding="20dp"/>
+
+</RelativeLayout>
