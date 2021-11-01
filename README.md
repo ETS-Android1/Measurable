@@ -1,5 +1,5 @@
 # Measurable
-Back in 2017, when I was in highschool, AR was not as common place as it is today. Being able to measure real life objects with your phone was still a new concept, and I thought I would take a stab at it. 
+Back in 2017, when I was in highschool, AR was not as common place as it is today. Being able to measure real life objects with your phone was still a fairly new concept, and I thought I would take a stab at it. 
 Measurable is an Android application that allows users to measure the height and distance away from objects. 
 
 The application works by getting the height of the user, and using the accelerometer to find the angle from the normal. 
